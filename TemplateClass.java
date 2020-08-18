@@ -2,7 +2,7 @@
 import java.util.*; 
 // begin class
 // You should change the name of the class to something appropriate
-class TemplateClass {  
+public class TemplateClass {  
   // begin main method
   public static void main(String[] args) { 
     // Create a Scanner object called "scan" to get input from the console
