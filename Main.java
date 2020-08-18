@@ -1,17 +1,17 @@
-import java.util.*;
-
-class ChangeCounter {
-  public static void main(String[] args) {
-    System.out.println("Please enter how many pennies you have: ");
-    Scanner scan = new Scanner(System.in);
-    int pennies = scan.nextInt();
-
-    int quarters = pennies / 25;
-    int dimes = (pennies %= 25) / 10;
-    int nickels = (pennies %= 10) / 5;
-    pennies %= 5
-
-    System.out.println("You have " + quarters + " quarter(s), " + dimes + " dime(s), " + nickels + " nickel(s), and " + pennies + " pennie(s)!");
-
-  }
-}
+// imports class libraries, including for Scanner to do input
+import java.util.*; 
+// begin class
+// You should change the name of the class to something appropriate
+class TemplateClass {  
+  // begin main method
+  public static void main(String[] args) { 
+    // Create a Scanner object called "scan" to get input from the console
+    Scanner scan = new Scanner(System.in); 
+    // prompt user for their name
+    System.out.println("Please enter your name:"); 
+    // Gets users name and puts in the "name" variable
+    String name = scan.nextLine();
+    // Says hello
+    System.out.println("Hello, " + name); 
+  } // end main method
+} // end class
